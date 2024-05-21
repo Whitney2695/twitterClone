@@ -1,0 +1,153 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+}
+
+.container {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    gap:300px;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size:15px;
+    border-top-left-radius:10px;
+}
+
+.heading h1 {
+    margin: 0;
+    font-size:12px;
+}
+.select-container{
+    font-size:10px;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.select-container label {
+    margin-right: 10px;
+}
+.user-details{
+    background-image: url("images/Fundo De Néon Futurista De Cor Dupla Moderna, Néon, Futurista, Fundo Imagem de plano de fundo para download gratuito.jpeg");
+    margin-top:0px;
+    height:40vh;
+}
+
+.neon {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.user-details .profile {
+    margin-bottom: 20px;
+    margin-left:15px;
+}
+.profile img{
+    margin-top:145px;
+}
+
+.details-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top:60px;
+}
+
+.details-column .detail {
+    margin-bottom: 10px;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-container, .comments-container {
+    width: 48%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li .post-profile, li .comment-profile {
+    margin-right: 10px;
+}
+
+li .post-content, li .comment-content {
+    margin-top: 10px;
+}
+
+.post-icons, .comment-icons {
+    display: flex;
+    margin-top: 5px;
+    gap:10px;
+}
+
+.post-icons ion-icon, .comment-icons ion-icon {
+    margin-right: 5px;
+    gap:0px;
+}
+.post{
+    display:flex;
+    flex-direction:row;
+}
+.comments{
+    display:flex;
+    flex-direction:row;
+}
+.post-profile img{
+    border-radius:0px;
+}
+.comment-profile img{
+    border-radius:0px;
+}
+strong ion-icon{
+    font-color:blue;
+}
+.check ion-icon{
+    color:blue;
+    gap:8px;
+}
+.love ion-icon{
+    color:red;
+    gap:0px;
+
+}

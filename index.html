@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <p>Twitter Clone</p>
+
+            <div class="user-container">
+                <div class="select-container">
+                    <label for="user-select">Search</label>
+                    <select id="user-select"></select>
+                </div>
+            </div>
+        </div>
+        <div class="neon">
+            <div id="user-details" class="user-details">
+                <div class="profile">
+                    <img src="" alt="User Image" class="user-image" width="110px" height="120px">
+                </div>
+            </div>
+            <div class="details-column">
+                <div class="detail"><span id="username"></span></div>
+                <div class="detail"><span id="email"></span></div>
+                <div class="detail"><span id="phone"></span></div>
+                <div class="detail"><ion-icon name="location"></ion-icon> <span id="website"></span></div>
+            </div>
+        </div>
+
+
+        <div class="content-row">
+            <div id="posts-container" class="posts-container">
+                <ul id="posts-list"></ul>
+            </div>
+
+            <div id="comments-container" class="comments-container">
+                <ul id="comments-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
