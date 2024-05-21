@@ -65,7 +65,7 @@ body {
     margin-left:15px;
 }
 .profile img{
-    margin-top:145px;
+    margin-top:190px;
 }
 
 .details-column {
@@ -73,7 +73,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
-    margin-top:60px;
+    margin-top:70px;
 }
 
 .details-column .detail {
@@ -150,4 +150,25 @@ strong ion-icon{
     color:red;
     gap:0px;
 
+}
+@media only screen and (max-width: 386px){
+    .content-row{
+        display: flex;
+        flex-direction: column !important;
+        width: 40%;
+        float: left;
+        
+    }
+    
+    .posts-container{
+        width: 60%;
+        float: left;
+    }
+    .comments .post{
+        display: flex;
+        font-size:10px;
+    }
+    .comment-profile img .post-profile img{
+        height: 40%;       
+    }
 }
